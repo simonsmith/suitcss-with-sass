@@ -1,0 +1,21 @@
+/** @define Post; use strict */
+
+@import url("suitcss-utils-display");
+@import url("./avatar");
+
+$Post-bgColor: #fff;
+
+.Post {
+  background-color: $Post-bgColor;
+  border-radius: 5px;
+}
+
+.Post-content {
+  font-size: 1.125rem;
+  color: #000;
+  width: (100% / 3);
+
+  &:hover {
+    color: green;
+  }
+}
