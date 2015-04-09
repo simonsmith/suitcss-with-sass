@@ -17,3 +17,5 @@ Using `libsass` means that the output of a sass file has the `@import` above the
 To circumvent this consider handling all imports in the `main.scss` instead of at a per file level.
 
 Using the Ruby Sass does not have this issue.
+
+An issue has been raised https://github.com/sass/libsass/issues/1080
